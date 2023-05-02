@@ -1,0 +1,46 @@
+.register__container {
+  position: relative;
+}
+
+.register {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, 20%);
+  width: 50%;
+  text-align: center;
+  color: #f05537;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  padding: 10px 5px 10px 5px;
+  width: 50%;
+  margin: auto;
+  border: none;
+  border-bottom: 1px solid #f05537;
+  margin-bottom: 30px;
+}
+
+input:focus {
+  border: 1px solid #f05537;
+  outline: none;
+  border-radius: 10px;
+}
+
+button {
+    outline: none;
+    padding: 10px 50px 10px 50px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #f05537;
+}
+
+.login-link {
+    text-decoration: none;
+    color: #f05537;
+}
